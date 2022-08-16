@@ -1,6 +1,6 @@
 #the following is the cryto trade bot and compatible with the follwing strategy message
 #var string bar1 = '════════ Password and Leverage ════════'
-#leveragex                = input.string("20",group=bar1)
+#leverage                = input.string("20",group=bar1)
 #passphrase ="1234"
 #string Alert_OpenLong       = '{"side": "OpenLong", "amount": "@{{strategy.order.contracts}}", "symbol": "{{ticker}}", "passphrase": "'+passphrase+'","leverage":"'+str.tostring(leveragex)+'"}'
 #string Alert_OpenShort      = '{"side": "OpenShort", "amount": "@{{strategy.order.contracts}}", "symbol": "{{ticker}}", "passphrase": "'+passphrase+'","leverage":"'+str.tostring(leveragex)+'"}'
